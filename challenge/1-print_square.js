@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Get the size from command line arguments
-const size = parseInt(process.argv[2]);
+const size = parseInt(process.argv[2], 10); // <-- base 10 added
 
 if (isNaN(size) || size <= 0) {
   console.log("Please provide a positive integer.");
@@ -17,4 +17,3 @@ for (let i = 0; i < size; i++) {
   }
   console.log(row);
 }
-
