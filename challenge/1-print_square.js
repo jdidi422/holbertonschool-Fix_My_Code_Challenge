@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
 // Get the size from command line arguments
-const size = parseInt(process.argv[2], 10); // <-- base 10 added
+const size = parseInt(process.argv[2], 10);
 
+// Exit silently if size is not a positive integer
 if (isNaN(size) || size <= 0) {
-  console.log("Please provide a positive integer.");
-  process.exit(1);
+  process.exit(0);
 }
 
 // Loop over each row
