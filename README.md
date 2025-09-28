@@ -6,3 +6,4 @@ Each task provides an existing buggy implementation, and the goal is to correct 
 ## Projects
 - 0-fizzbuzz.py: Fixed implementation of FizzBuzz in Python.
 
+
